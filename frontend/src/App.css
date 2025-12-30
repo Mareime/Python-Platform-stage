@@ -1,0 +1,29 @@
+/* Styles globaux pour l'application */
+
+.App {
+  min-height: 100vh;
+}
+
+/* Amélioration de la lisibilité */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Styles pour les cartes */
+.card-hover {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .MuiContainer-root {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
